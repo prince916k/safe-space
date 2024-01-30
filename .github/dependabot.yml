@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"  # Specify the package ecosystem (e.g., pip, npm, bundler, etc.)
+    directory: "/"  # Location of package manifests, adjust this based on your project structure
+    schedule:
+      interval: "weekly"
